@@ -48,7 +48,6 @@ Múlt kölcsönbe
 
 24 980 Ft
 -->
-aaaaa
 
 
 
