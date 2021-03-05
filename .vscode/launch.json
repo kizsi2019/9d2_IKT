@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+<<<<<<< HEAD
     
     
         {
@@ -11,6 +12,13 @@
             "request": "launch",
             "name": "Open teszt.html",
             "file": "c:\\Users\\szdan\\OneDrive\\Asztali gép\\Mappák\\git\\9d2_IKT\\Szilágyi Dániel\\teszt.html"
+=======
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open táblázat.html",
+            "file": "c:\\Users\\Perei\\Desktop\\IKT. prjektmunka\\9d2_IKT\\Perei Szabina\\táblázat.html"
+>>>>>>> ce1038696c01838de38b076512ccc12e0d8fb178
         }
     ]
 }
