@@ -1,4 +1,6 @@
 body 
 {   
-    background-color: rgba(255, 99, 71, 0.37);
+    background-image: url("bg-body.gif");
+    background-repeat: no-repeat;
+    background-size: top right;
 }
