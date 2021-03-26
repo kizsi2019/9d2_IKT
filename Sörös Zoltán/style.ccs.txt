@@ -1,0 +1,6 @@
+body {
+    background-color: rgba(0, 0, 0, 0, 5);
+    background-image: url('bg-body.gif')
+    background-repeat: repeat;
+    background-position: top center;
+}    
