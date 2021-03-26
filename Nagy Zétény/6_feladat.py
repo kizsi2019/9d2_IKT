@@ -8,6 +8,7 @@ while i < 20:
         print(szam)
         szamlalo = szamlalo + 1
     i = i + 1
+print(" A lefutott program", szamlalo, "-szor talált 3-al osztható számot!")
 =======
 import random
 i = 0
@@ -18,5 +19,5 @@ while i < 20:
         print(szam)
         szamlalo = szamlalo + 1
     i = i + 1
->>>>>>> c08fb861e4a439119896b5a96b6d70e5c53bac37
-print("A lefutott program", szamlalo, "-szor talált 3-al osztható számot44")
+print(" A lefutott program", szamlalo, "-szor talált 3-al osztható számot!")
+>>>>>>> 74a0aa567ef1233ec6c3c42d799d0c03db1d20d5

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlapok</title>
+</head>
+
+<body>
+    <form action="GET">
+        <fieldset>
+            <legend>
+                Ide írj!
+            </legend>
+            <label for="fname">Vezetéknév:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Keresztnév:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="tel">Telefonszám:</label>
+            <input type="tel" id="tel" name="tel"><br><br>
+            <label for="pw">Jelszó:</label>
+            <input type="password" id="pw" name="pw"><br><br>
+            <label for="file">File:</label>
+            <input type="file" id="file" name="file"><br><br>
+            <label for="cb">Válassz!</label>
+            <input type="checkbox" id="cb" name="cb"><br><br>
+
+            <label for="cars1">Válassz egy autót:</label>
+            <select name="cars1" id="cars1">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+            <br><br>
+            <label for="cars2">Válassz egy autót:</label>
+            <select name="cars2" id="cars2">
+              <optgroup label="Svéd autók">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+              </optgroup>
+              <optgroup label="Német autók">
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </optgroup>
+            </select>
+            <br><br>
+            <textarea rows="20" cols="30">
+
+            </textarea>
+            <br><br>
+            <label for="file2">Letöltési folyamat:</label>
+            <progress id="file2" value="50" max="100"> 50% </progress><br><br>
+            <input type="submit" value="Elküld">
+            <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
