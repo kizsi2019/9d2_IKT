@@ -1,5 +1,9 @@
-body {
-    background-image: url(bg-body.gif);
-    background-repeat: no-repeat;
-    background-position: bottom right
-}
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,100&display=swap');
+    body {
+        background-image: url('bg-body.gif');
+        background-repeat: no-repeat;
+        background-position: top center;
+        background: fixed url('bg-body.gif') top center;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font: 12px/30px;
