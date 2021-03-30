@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,100&display=swap');
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
@@ -11,6 +12,10 @@ body {
 }
 
 div {
-    width: 400px;
-    padding: 20px;
+    width: 80%;
+    padding: 30px 0 30px 0;
+    border: 10px dashed red;
+    border-left: 20px solid green;
+    border-right: 20px solid gray;
+    margin: 20px auto 20px auto;
 }
