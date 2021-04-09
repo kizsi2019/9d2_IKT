@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url(pics/bg-body.gif) ;
+
+}
+
+.box-content {
+    color: white;
+}
