@@ -15,3 +15,7 @@ body{
     background: url(pics/image1.jpg) top center;
     height: 200px;
 }
+
+.box-content {
+    padding: 20px;
+}
