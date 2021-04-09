@@ -1,11 +1,21 @@
-body
-{
-    background-image: fixed url('bg-body.gif') top center;
-    color: white;
-    font-family: sans-serif;
-    font: 300px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,100&display=swap');
+*{
+    box-sizing: border-box;
 }
-
-div {
-    width: 400px;
+body {
+    background: fixed url('bg-body.gif') top center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font: 12px/30px;
+}
+div{
+    width: 400px;  
+    padding: 30px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    border-left: 20px solid green;
+    border-right: 20px solid blue;
+    border-bottom: 20px solid orange;
+    margin: 20px auto 20px auto;
 }
