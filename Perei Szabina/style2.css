@@ -1,21 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
-*{
+* {
     box-sizing: border-box;
 }
+
 body{
-    background: url(pics/bg-body.gif) ;
+    background: url(pics/bg-body.gif);
+    margin: 0;
     font-family: 'Oswald', sans-serif;
 }
 
-.box-content {
+.box-content{
     color: white;
 }
 
 .header-image{
-    background: url(pics/image1.jpg) top center;
-    height: 200px;
+    background: url(pics/image1.jpg);
+    height: 200px
 }
-
-.box-content {
+.box-content{
     padding: 20px;
 }
