@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(pics/bg-body.gif);
+}
+
+.box-content {
+    color: white;
+}
+
+.header-image {
+    background: url(pics/imagel.jpg);
+    height: 200px;
+}
+
+.box-content {
+    padding: 20px;
+}
