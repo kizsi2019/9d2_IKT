@@ -7,15 +7,40 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-.box-content {
-    color: white;
+.box{
+    background-color: white;
+    max-width: 600px;
+    width: 90%;
+    margin: 40px auto;
 }
 
-.header-image{
+.box .box-content {
+    color: white; 
+    padding: 20px;
+}
+
+.box .header-image{
     background: url(pics/image1.jpg) top center;
     height: 200px;
 }
 
-.box-content {
-    padding: 20px;
+.box .box-content p{
+    color: #000000
+}
+
+.box .box-content h2{
+    color:#32859d
+
+}
+
+.box .box-content .details {
+    margin: 16px 0 0 0;
+}
+
+.box .box-content .details a{
+    background:#feb123 ;
+    color: black ;
+    padding: 5p 10px;
+    display: inline-block;
+
 }
