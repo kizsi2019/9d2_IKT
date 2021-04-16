@@ -9,6 +9,14 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+.box-content {
+    color: white;
+}
+
+.header-image {
+    background: url(pics/image1.jpg);
+    height: 200px
+}
 .box{
     background-color: white;
     max-width: 600px;
@@ -16,31 +24,23 @@ body {
     margin: 40px auto;
 }
 
-.box .header-image {
-    background: url(pics/image1.jpg);
-    height: 200px;
+.box .box-content p{
+    color: #535353;
 }
 
-.box .box-content {
-    color: white;
+.box .box-content h2{
+    color: #7cc576;
+}
+
+.box-content {
     padding: 20px;
 }
-
-.box .box-content p {
-    color: #535353
-
-}
-
-.box .box-content h2 {
-    color: #32859d;
-}
-
 .box .box-content .details {
     margin: 16px 0 0 0;
 }
-.box .box-content .details a{
+.box .box-content .details a {
     background: #feb127;
     color: black;
     padding: 5px 10px;
-    display: inline-block;
+    display: inline;
 }
