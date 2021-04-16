@@ -9,9 +9,10 @@ body{
 
 .box{
     background-color: white;
-    max-width: 600px;
+    max-width: 1200px;
     width: 90%;
     margin: 40px auto;
+    box-shadow: 0 0 30px rgba(117, 114, 114, 0.7);
 }
 
 .box .box-content {
@@ -38,9 +39,16 @@ body{
 }
 
 .box .box-content .details a{
-    background:#feb123 ;
+    background:#aed30a67 ;
     color: black ;
     padding: 5p 10px;
     display: inline-block;
+    text-decoration: none;
 
 }
+
+.box.box-2 .header-image{
+    background: url(pics/image2.jpg) top center;
+    height: 200px;
+}
+
