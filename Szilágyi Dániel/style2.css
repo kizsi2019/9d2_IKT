@@ -22,6 +22,7 @@ body {
     max-width: 600px;
     width: 90%;
     margin: 40px auto;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
 }
 
 .box .box-content p{
@@ -43,4 +44,9 @@ body {
     color: black;
     padding: 5px 10px;
     display: inline;
+    text-decoration: none;
+}
+.header-image1 {
+    background: url(pics/image2.jpg);
+    height: 200px
 }
