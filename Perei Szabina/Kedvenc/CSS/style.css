@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 * {
     box-sizing: border-box;
 }
 
 body {
-    background: url(pics/bg-body.gif);
+    background: url(Kedvenc/Pics/anime-body-másolata.gif);
     margin: 0;
-    font-family: 'Oswald', sans-serif;
+    font-family:'Lato', sans-serif;
 }
 
 .box {
@@ -18,7 +18,7 @@ body {
 }
 
 .box .header-image {
-    background: url(pics/image1.jpg);
+    background: url(Kedvenc/Pics/one-piece01.jpg);
     height: 200px;
 }
 
@@ -48,5 +48,5 @@ body {
 }
 
 .box.box-2 .header-image {
-    background: url(pics/image2.jpg)
+    background: url(Kedvenc/Pics/bleach02.jpg)
 }
