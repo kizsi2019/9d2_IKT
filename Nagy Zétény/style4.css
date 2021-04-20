@@ -1,0 +1,10 @@
+                                        .box3 {
+                                    background-color: white;
+                                    max-width: 600px;
+                                    max-width: 1200px;
+                                    width: 90%;
+                                    margin: 40px auto;
+                                    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+                                    body {
+                                        background: url(Kedvenc/fb_image.png);
+                                        font-family: 'Oswald', sans-serif;
