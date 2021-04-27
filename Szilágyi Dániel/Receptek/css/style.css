@@ -6,4 +6,62 @@
 body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
+    background: url(../pics/bg-body.jpg);
+}
+
+header {
+    background: url(../pics/bg-header.jpg);
+    color: white;
+    font-size: 80px;
+    font-weight: 700px;
+    padding: 80px 60px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, .8);
+}
+
+content {
+    background-color: #333030;
+}
+
+content::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+nav {
+    width: 25%;
+    float: left;
+}
+
+nav ul {
+    margin: 0;
+    padding: 30px;
+    list-style: none;
+}
+
+nav ul li {
+    border-bottom: 1px dashed rgba(119, 59, 59, .8);
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 0;
+    display: block;
+}
+
+nav a:hover {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+main {
+    width: 75%;
+    float: left;
 }
