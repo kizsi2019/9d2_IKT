@@ -24,7 +24,7 @@ header {
 }
 
 content {
-    background: #333030;
+    background: #333030
 }
 
 .content::after {
@@ -53,6 +53,7 @@ nav a {
     text-decoration: none;
     padding: 15px 0;
     display: block;
+    ;
 }
 
 nav a:hover {
