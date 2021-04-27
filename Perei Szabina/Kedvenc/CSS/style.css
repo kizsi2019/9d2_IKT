@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url(Kedvenc/Pics/anime-body-másolata.gif);
+    background: url(../Pics/anime-body-másolata.gif);
     margin: 0;
     font-family:'Lato', sans-serif;
 }
@@ -18,7 +18,7 @@ body {
 }
 
 .box .header-image {
-    background: url(Kedvenc/Pics/one-piece01.jpg);
+    background: url(../Pics/one-piece01.jpg);
     height: 200px;
 }
 
@@ -47,6 +47,6 @@ body {
     text-decoration: none;
 }
 
-.box.box-2 .header-image {
-    background: url(Kedvenc/Pics/bleach02.jpg)
+.box.box-1 .header-image {
+    background: url(../Pics/bleach02.jpg)
 }
