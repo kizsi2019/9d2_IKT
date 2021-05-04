@@ -65,3 +65,17 @@ main {
     width: 75%;
     float: left;
 }
+
+main p {
+    line-height: 23px;
+}
+
+.float-right {
+    float: right;
+    margin: 0 0 20px 20px
+}
+
+.float-left {
+    float: left;
+    margin: 0 20px 20px 0
+}
