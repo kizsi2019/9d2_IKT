@@ -27,7 +27,8 @@ content {
     background: #333030
 }
 
-.content::after {
+.content::after,
+footer::after {
     content: "";
     clear: both;
     display: table;
@@ -64,6 +65,8 @@ nav a:hover {
 main {
     width: 75%;
     float: left;
+    padding: 30px;
+    background: white
 }
 
 main p {
@@ -78,4 +81,31 @@ main p {
 .float-left {
     float: left;
     margin: 0 20px 20px 0
+}
+
+footer {
+    padding: 20px 0;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer .left {
+    float: left;
+}
+
+footer .right {
+    float: right;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+h1 span {
+    font-size: 50px;
+    background: #3d8a12;
+    color: white;
 }
