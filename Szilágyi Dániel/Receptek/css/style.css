@@ -33,6 +33,16 @@ content::after {
     margin: 0 auto;
 
 }
+content {
+    background: #333030
+}
+
+.content::after,
+footer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 nav {
     width: 25%;
@@ -46,24 +56,27 @@ nav ul {
 }
 
 nav ul li {
-    border-bottom: 1px dashed rgba(119, 59, 59, .8);
+    border-bottom: 1px dashed rgba(255, 255, 255, .8);
 }
 
-nav a{
+nav a {
     color: white;
     text-decoration: none;
     padding: 15px 0;
     display: block;
+    ;
 }
 
 nav a:hover {
     padding: 15px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, .1);
 }
 
 main {
     width: 75%;
     float: left;
+    padding: 30px;
+    background: white
 }
 
 main p {
@@ -72,10 +85,37 @@ main p {
 
 .float-right {
     float: right;
-    margin: 0 0 20px 20px;
+    margin: 0 0 20px 20px
 }
 
 .float-left {
     float: left;
-    margin: 0 20px 20px 0;
+    margin: 0 20px 20px 0
+}
+
+footer {
+    padding: 20px 0;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer .left {
+    float: left;
+}
+
+footer .right {
+    float: right;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+h1 span {
+    font-size: 50px;
+    background: #3d8a12;
+    color: white;
 }
