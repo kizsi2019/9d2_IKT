@@ -14,3 +14,20 @@ body {
     max-width: 800px;
     margin: 80px auto;
 }
+
+header {
+    background: url('../pics/bg-header.jpg') no-repeat;
+    height: 360px;
+}
+
+nav {
+    background: rgba(190,0,0,.8);
+}
+
+nav a {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+}
