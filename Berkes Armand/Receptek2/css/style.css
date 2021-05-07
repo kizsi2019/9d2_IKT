@@ -25,10 +25,13 @@ nav{
     background: rgba(190,0,0,.8);
 }
 
-nav a{
-    color:white
+nav a {
+    color:white;
+    text-decoration: none;
 }
 
-nav ul{
+nav ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
