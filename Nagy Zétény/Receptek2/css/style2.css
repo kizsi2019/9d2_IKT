@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -125,6 +125,7 @@ nav .submenu a:hover {
     border-radius: 3px;
     cursor: pointer;
 }
+
 
 .cookie-accept button:hover {
     background: red;
