@@ -11,7 +11,7 @@ body{
     background-color: rgba(0, 0, 0, 0.349);
     max-width: 2000px;
     width: 90%;
-    margin: 70px auto;
+    margin: 10px auto;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
 }
 
@@ -39,7 +39,7 @@ body{
 }
 
 .box .box-content .details {
-    margin: 16px 0 0 0;
+    margin: 10px 0 0 0;
 }
 
 .box .box-content .details a{
@@ -51,6 +51,83 @@ body{
     font-size: x-large;
 
 }
+
+
+nav {
+    background: rgba(190, 0, 0, 3);
+    background: rgba(0, 0, 0, 0.548);
+    position: center;
+    bottom: 1;
+    left: 0;
+    right: 0;
+    padding: 15px 550px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display:inline-block;
+    padding: 10px;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, .8);
+}
+
+nav ul {
+    list-style: none;
+    padding: 5;
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+main {
+    background: white;
+    padding: 10px;
+}
+
+.cookie-accept {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.527);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+      
+}
+
+.cookie-accept button {
+    background: rgb(131, 131, 131);
+    color: rgb(0, 0, 0);
+    border: 0;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+
+.cookie-accept button:hover {
+    background: rgb(168, 168, 168);
+    color: white;
+    
+}
+
+
+
+
+
+
+
 
 
 
