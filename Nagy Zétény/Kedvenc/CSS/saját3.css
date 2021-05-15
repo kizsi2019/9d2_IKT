@@ -1,0 +1,99 @@
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');;
+        *{
+
+            box-sizing: content-box;
+     
+        }
+        body{
+            background: url(Coop_coin.gif) ;
+            font-family: 'RocknRoll One', sans-serif;;
+            background-size: 20%;
+            background-size: auto;
+        }
+        
+        .box{
+            background-color: rgb(174, 248, 131);
+            background-size: auto;
+            max-width: 1000px;
+            width: 90%;
+            margin: 100px ;
+            box-shadow: 0 0 100px rgba(68, 68, 68, 0);
+
+        
+        }
+        
+        .box .box-content {
+            color: rgba(19, 19, 19, 0.787); 
+            padding: 20px;
+            width: 1000px;
+            height: 800px;
+            text-align: center;
+            padding: 0px 1px;
+        
+            .box 
+            height: 2500px;
+        }
+        
+        .box .box-content p{
+            color: #000000bb;
+            
+        }
+        
+        .box .box-content h2{
+            color:#000000
+            
+        }
+        
+        .box .box-content .details {
+            margin: 500px 0 0 0;
+            
+        }
+        
+        .box .box-content .details a{
+            background:#4644448e ;
+            color: rgb(255, 255, 255) ;
+            padding: 10px 350px;
+            display: inline-block;
+            text-decoration: none;
+            font-size: medium;
+            
+        
+        }
+        
+        
+        main {
+            background: rgb(0, 0, 0);
+            padding: 10px;
+        }
+        
+        .cookie-accept {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.527);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            
+              
+        }
+        
+        .cookie-accept button {
+            background: rgb(156, 148, 148);
+            color: rgb(0, 0, 0);
+            border: 0;
+            margin-left: 10px;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+            
+        }
+        
+        .cookie-accept button:hover {
+            background: rgb(0, 0, 0);
+            color: white;
+            
+        }
+        
+        
