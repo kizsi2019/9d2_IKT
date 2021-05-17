@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');;
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url(sajatkep/bg2.gif) ;
+    font-family: 'RocknRoll One', sans-serif;;
+    background-size: 100%;
+}
+
+.box{
+    background-color: rgba(0, 0, 0, 0.438);
+    max-width: 1300px;
+    width: 90%;
+    margin: 20px ;
+    box-shadow: 0 0 100px rgba(68, 68, 68, 0.7);
+}
+
+.box .box-content {
+    color: rgba(19, 19, 19, 0.787); 
+    padding: 20px;
+    width: 1160px;
+	height: 800px;
+    text-align:center;
+    padding: 0px 1px;
+}
+
+.box .header-image{
+    background: url(sajatkep/code.jpg) top center;
+    height: 200px;
+    padding: 10px 350px;
+}
+
+.box .box-content p{
+    color: #8a8888bb;
+    
+}
+
+.box .box-content h2{
+    color:#3f3e3e
+
+}
+
+.box .box-content .details {
+    margin: 10px 0 0 0;
+}
+
+.box .box-content .details a{
+    background:#18181859 ;
+    color: rgb(255, 255, 255) ;
+    padding: 10px 350px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: x-large;
+
+}
+
+.details:hover{
+    background: rgb(19, 19, 19);
+    color: white;
+    margin: 10px 0 0 0;
+    display: inline-block;
+    
+}
+
+
+nav {
+    background: rgba(190, 0, 0, 3);
+    background: rgba(20, 20, 20, 0.548);
+    position: sticky;
+    bottom: 5;
+    left: 0;
+    right: 0;
+    padding: 1px 530px;
+    display: inline-table;
+    text-decoration: none;
+    margin: 10px;
+
+}
+
+div {
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 50px;
+  }
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display:inline-block;
+    padding: 10px;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, .8);
+}
+
+nav ul {
+    list-style: none;
+    padding: 5;
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+main {
+    background: white;
+    padding: 10px;
+}
+
+.cookie-accept {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.527);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+      
+}
+
+.cookie-accept button {
+    background: rgb(131, 131, 131);
+    color: rgb(0, 0, 0);
+    border: 0;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+
+.cookie-accept button:hover {
+    background: rgb(168, 168, 168);
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
